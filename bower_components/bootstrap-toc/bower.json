@@ -1,0 +1,37 @@
+{
+  "name": "bootstrap-toc",
+  "description": "An automatic table of contents generator, using Bootstrap 3",
+  "main": "dist/bootstrap-toc.js",
+  "version": "0.3.1",
+  "authors": [
+    "Aidan Feldman <aidan.feldman@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "bootstrap",
+    "toc",
+    "table-of-contents"
+  ],
+  "homepage": "http://afeld.github.io/bootstrap-toc/",
+  "moduleType": [
+    "globals"
+  ],
+  "ignore": [
+    "Gemfile",
+    "LICENSE.md",
+    "_*",
+    "assets",
+    "package.json",
+    "gulpfile.js",
+    "index.md",
+    "bootstrap-toc.js",
+    "bootstrap-toc.css",
+    "node_modules",
+    "bower_components",
+    "test"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.1",
+    "bootstrap": "~3"
+  }
+}
