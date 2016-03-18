@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body data-spy="scroll" data-target="#toc">
+    {% include topbar.html %}
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4 col-sm-push-8">
+          <div class="toc" data-spy="affix">
+            <nav id="toc" data-toggle="toc"></nav>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-8 col-sm-pull-4">
+          {{ content }}
+        </div>
+      </div>
+
+      <div class="row">
+        {% include footer.html %}
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/bower_components/bootstrap-toc/dist/bootstrap-toc.min.js"></script>
+  </body>
+</html>
