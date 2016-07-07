@@ -50,3 +50,11 @@ nav[data-toggle='toc'] {
     display: none;
   }
 }
+
+.bridgefoundry-advisors-imgs {
+  margin: 0 auto 5px 5px;
+  border: 2px solid #ccc;
+  width: 150px;
+  height: 150px;
+  float: right;
+}
